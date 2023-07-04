@@ -141,7 +141,7 @@ class CurrencyConverter:
 
     def show_help(self):
         messagebox.showinfo("Help", "Welcome to the Currency Converter App!\n\n"
-                                    "1. Enter the amount in the 'From' field.\n"
+                                    "1. Enter the amount in the 'From' field. You can use a dot for only fraction part.\n"
                                     "2. Select the currency to convert from in the 'From' dropdown.\n"
                                     "3. Select the currency to convert to in the 'Convert To' dropdown.\n"
                                     "4. Click the 'CONVERT' button to perform the conversion.\n"
